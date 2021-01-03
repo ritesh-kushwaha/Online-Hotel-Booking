@@ -1,0 +1,84 @@
+<html>
+    <head>
+        <title>
+            Our Rooms 
+        </title>
+        <link rel="stylesheet" href="select.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+         
+        <link rel="stylesheet" type="text/css" href="login.css"/>
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=play"/>
+        <style>
+            .button {
+             padding: 10px 10px;
+             font-size: 18px;
+             text-align: center;
+             cursor: pointer;
+             outline: none;
+             color: #fff;
+             background-color: #4CAF50;
+             border: none;
+             border-radius: 15px;
+        
+          }
+        </style>
+
+
+    </head>
+
+    <body>
+    <h1 style=color:#800000>ourrooms.com </h1>
+
+    
+    <div class="input-grp">
+    <label> Select City </label>
+    <select name="Cities" class="form-control">
+        <option value=""> </option>
+        <option value="Lucknow"> Lucknow</option>
+        <option value="Varanasi"> Varanasi</option>
+    </select>
+    </div>
+
+    <div class="input-grp">
+    <label>Check-in </label>
+    <input type="date" class="form-control select-date">
+    </div>
+
+    <div class="input-grp">
+    <label>Check-out </label>
+    <input type="date" class="form-control select-date">
+    </div>
+
+    <div class="input-grp">
+    <label>Adults</label>
+    <input type="number" class="form-control" min="0">
+    </div>
+
+    <div class="input-grp">
+    <label>Children</label>
+    <input type="number" class="form-control" value="0" min="0">
+    </div>
+
+    
+    
+    <div class="input-grp">
+    <button type="button" class="button"><a href = "room1.html">Show Rooms</a></button>
+    </div>
+
+
+    <div class="signin">
+    <form>
+        <h4 style="color:white">Log In</h2>
+        <input type="text" name="username" placeholder="Username">
+        <input type="password" name="password" placeholder="Password"><br><br>
+        <a href=""><input type="button" value="Log In"></a><br> <br>
+        <div id="container">
+       <a href="#" style="margin right:0px; font-size:13px  font-family:Tahoma,Geneva,sans-serif;">Forgot password</a>
+       </div> <br><br>
+       Don't have account? <a href="signup.html">&nbsp;Sign Up</a>
+
+    </form>
+    </div>
+
+    </body>
+</html>

@@ -1,0 +1,60 @@
+body
+{
+    font-family: Tahoma, Geneva, sans-serif;
+    color: #fff;
+}
+.signin
+{
+    background: rgba(44,62,80,0.7);
+    padding: 40px;
+    width: 350px;
+    margin;auto;
+    margin-top: 80px;
+    margin-left: 180px;
+}
+form
+{
+    width: 240px;
+    text-align: center;
+}
+input[type=text]
+{
+    width: 240px;
+    text-align: center;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    font-family: 'Play',sans-serif;
+    font-size: 16px;
+    font-weight: 200px;
+    padding: 10px 0;
+    transition: border 0.5s;
+    outline: none;
+    color: #fff;
+
+}
+input[type=password]
+{
+    width: 240px;
+    text-align: center;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    font-family: 'Play',sans-serif;
+    font-size: 16px;
+    font-weight: 200px;
+    padding: 10px 0;
+    transition: border 0.5s;
+    outline: none;
+    color: #fff;
+
+}
+input[type=button]
+{
+    border-radius:20 px;
+    width: 150px;
+    background: #fff;
+    color: #000;
+    font-size: 16px;
+    line-height: 25px;
+}
